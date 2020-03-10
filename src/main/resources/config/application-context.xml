@@ -72,9 +72,9 @@
     <tx:annotation-driven/>
 
     <!-- Service implementor bean -->
-    <bean id="OrderBatchService" class="com.accenture.flowershop.fe.ws.OrderBatchServiceImpl" />
+    <!-- <bean id="OrderBatchService" class="com.accenture.flowershop.fe.ws.OrderBatchServiceImpl" /> -->
     <!-- JAX-WS endpoint bean which is picked up by CXF -->
-    <jaxws:endpoint id="OrderBatchService1" implementor="#OrderBatchService" address="/OrderBatchService"/>
+    <!-- <jaxws:endpoint id="OrderBatchService1" implementor="#OrderBatchService" address="/OrderBatchService"/>-->
 
 
 </beans>

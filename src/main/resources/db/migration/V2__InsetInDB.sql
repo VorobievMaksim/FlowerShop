@@ -1,0 +1,11 @@
+Insert into "tb_users" ("username","password","fullName","address","number","balance","discount","role") values ('admin','admin123','','','',0,0,'ADMIN');
+
+Insert into "tb_users" ("username","password","fullName","address","number","balance","discount","role") values ('JohnDoe','JaneDoe','John Doe','499 Aspen Lane Germantown, MD 20874','+1-202-555-0154',2000,0,'USER');
+Insert into "tb_users" ("username","password","fullName","address","number","balance","discount","role") values ('JaneDoe','JohnDoe','Jane Doe','31 Greystone Dr.Odenton, MD 21113','+1-202-555-0105',2000,0,'USER');
+
+Insert into "tb_flowers" ("name","price","description","quantity") values ('Астра','80','Астра (лат. Aster). Относится к семейству астровых, которое объединяет более двухсот видов популярных декоративных растений, очень красивых в период цветения.','20');
+Insert into "tb_flowers" ("name","price","description","quantity") values ('Гвоздика Antigua','70','Antigua – новый взгляд на гвоздики. Оказывается, эти цветы вполне способны составить конкуренцию самым роскошным и крупным розам или пионам!','18');
+Insert into "tb_flowers" ("name","price","description","quantity") values ('Гвоздика Moonaqua','75','Moonaqua – махровые гвоздики из линейки сортов Moon («Лунная»). Крупные (5-7 см в раскрытом состоянии) светло-фиолетовые цветы стильно выглядят, идеальны для цветочных композиций и долго сохраняют свежесть после срезки.','23');
+Insert into "tb_flowers" ("name","price","description","quantity") values ('Гвоздика кремовая','78','Латинское название гвоздики (Diánthus) восходит к греческим словам δῖος («божественный») и ἄνθος («цветок»). Так ее назвал Карл Линней за прекрасный вид цветов.','31');
+Insert into "tb_flowers" ("name","price","description","quantity") values ('Георгин','94','В мире насчитывается около 10 000 сортов георгинов 15 основных цветов и оттенков. Плотные, яркие цветы шарообразной формы – настоящие любимцы флористов!','26');
+Insert into "tb_flowers" ("name","price","description","quantity") values ('Гермини','87','Гермини. Травянистое растение семейства Астровых. Родиной считается Южная Африка и тропики Азии. Миниатюрные гермини напоминают ромашки, но отличаются от них многочисленными вариантами окраски лепестков.','43');
